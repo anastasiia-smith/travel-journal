@@ -1,5 +1,6 @@
-export default [
+const data = [
   {
+    id: 1,
     title: "Vyborg",
     location: "Russia",
     googleMapsUrl: "https://goo.gl/maps/KxVoK9H6cX898aWU9",
@@ -9,6 +10,7 @@ export default [
     imageUrl: "./images/vyborg.jpg"
   },
   {
+    id: 2,
     title: "Moscow",
     location: "Russia",
     googleMapsUrl: "https://goo.gl/maps/7neZ9tHWxAqazYyM7",
@@ -18,6 +20,7 @@ export default [
     imageUrl: "./images/moscow.jpg"
   },
   {
+    id: 3,
     title: "Istanbul",
     location: "Turkey",
     googleMapsUrl: "https://goo.gl/maps/7neZ9tHWxAqazYyM7",
@@ -27,6 +30,7 @@ export default [
     imageUrl: "./images/turkey.jpg"
   },
   {
+    id: 4,
     title: "Los Angeles",
     location: "USA",
     googleMapsUrl: "https://goo.gl/maps/8Ckh9fuQ7QXDmZNw7",
@@ -36,6 +40,7 @@ export default [
     imageUrl: "./images/california.jpg"
   },
   {
+    id: 5,
     title: "New York",
     location: "USA",
     googleMapsUrl: "https://goo.gl/maps/b2xSzwjxR5YEurPU9",
@@ -45,3 +50,5 @@ export default [
     imageUrl: "./images/new-york.jpg"
   }
 ]
+
+export default data;
