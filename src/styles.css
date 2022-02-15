@@ -4,6 +4,8 @@ body {
   font-weight: 400;
   width: 100vw;
   font-size: 16px;
+  color: #2B283A;
+
 }
 
 header {
@@ -21,4 +23,79 @@ header > h2 {
   margin: 0;
   font-weight: 500;
   font-size: 0.876rem;
+}
+
+main {
+  padding: 28px 40px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 125px auto;
+  column-gap: 20px;
+  padding: 28px 0;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+.card > .card__image {
+  width: 125px;
+  height: 168px;
+  background-color: #F55A5A;
+  border-radius: 5px;
+}
+
+.card > .card__image img {
+  
+}
+
+.card > .card__content {
+  padding: 20px 0;
+}
+
+.card > .card__content > .card__content-location {
+  font-weight: 400;
+  font-size: 0.64rem;
+}
+
+.card > .card__content > .card__content-location img {
+  width: 7px;
+  height: 9.55px;
+  margin-right: 4px;
+}
+
+.card > .card__content > .card__content-location span {
+  margin-right: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.card > .card__content > .card__content-location a {
+  color: #918E9B;
+}
+
+.card > .card__content > .card__content-location a:hover,
+.card > .card__content > .card__content-location a:active,
+.card > .card__content > .card__content-location a:focus {
+  color: #d2d1d4;
+}
+
+.card > .card__content > .card__content-header {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px 0 25px;
+}
+
+.card > .card__content > .card__content-date {
+  font-size: 0.64rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.card > .card__content > .card__content-descripion {
+  margin: 0;
+  font-size: 0.64rem;
 }
