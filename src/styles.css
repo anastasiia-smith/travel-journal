@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  width: 100vw;
+  font-size: 16px;
+}
+
+header {
+  background-color:#F55A5A;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; 
+  gap: 8px;
+  height: 55px;
+}
+
+header > h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.876rem;
+}
