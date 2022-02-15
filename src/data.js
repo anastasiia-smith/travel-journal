@@ -1,14 +1,5 @@
 export default [
   {
-    title: "Istanbul",
-    location: "Turkey",
-    googleMapsUrl: "https://goo.gl/maps/7neZ9tHWxAqazYyM7",
-    startDate: "11 Jun, 2017",
-    endDate: "14 Jun, 2017",
-    description: "Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait.",
-    imageUrl: "./images/turkey.jpg"
-  },
-  {
     title: "Vyborg",
     location: "Russia",
     googleMapsUrl: "https://goo.gl/maps/KxVoK9H6cX898aWU9",
@@ -27,6 +18,15 @@ export default [
     imageUrl: "./images/moscow.jpg"
   },
   {
+    title: "Istanbul",
+    location: "Turkey",
+    googleMapsUrl: "https://goo.gl/maps/7neZ9tHWxAqazYyM7",
+    startDate: "11 Jun, 2017",
+    endDate: "14 Jun, 2017",
+    description: "Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait.",
+    imageUrl: "./images/turkey.jpg"
+  },
+  {
     title: "Los Angeles",
     location: "USA",
     googleMapsUrl: "https://goo.gl/maps/8Ckh9fuQ7QXDmZNw7",
@@ -40,7 +40,7 @@ export default [
     location: "USA",
     googleMapsUrl: "https://goo.gl/maps/b2xSzwjxR5YEurPU9",
     startDate: "07 Jul, 2020",
-    endDate: "07 Jun, 2020",
+    endDate: "07 Jul, 2020",
     description: "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean.",
     imageUrl: "./images/new-york.jpg"
   }

@@ -46,10 +46,11 @@ main {
   height: 168px;
   background-color: #F55A5A;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .card > .card__image img {
-  
+  height: 100%;
 }
 
 .card > .card__content {
