@@ -41,7 +41,7 @@ main {
   border-bottom: none;
 }
 
-.card > .card__image {
+.card .card__image {
   width: 125px;
   height: 168px;
   background-color: #F55A5A;
@@ -49,54 +49,54 @@ main {
   overflow: hidden;
 }
 
-.card > .card__image img {
+.card .card__image img {
   height: 100%;
 }
 
-.card > .card__content {
+.card .card__content {
   padding: 20px 0;
 }
 
-.card > .card__content > .card__content-location {
+.card .card__location {
   font-weight: 400;
   font-size: 0.64rem;
 }
 
-.card > .card__content > .card__content-location img {
+.card .card__location img {
   width: 7px;
   height: 9.55px;
   margin-right: 4px;
 }
 
-.card > .card__content > .card__content-location span {
+.card .card__location span {
   margin-right: 12px;
   letter-spacing: 0.17em;
   text-transform: uppercase;
 }
 
-.card > .card__content > .card__content-location a {
+.card .card__location a {
   color: #918E9B;
 }
 
-.card > .card__content > .card__content-location a:hover,
-.card > .card__content > .card__content-location a:active,
-.card > .card__content > .card__content-location a:focus {
+.card .card__location a:hover,
+.card .card__location a:active,
+.card .card__location a:focus {
   color: #d2d1d4;
 }
 
-.card > .card__content > .card__content-header {
+.card .card__header {
   font-size: 25px;
   font-weight: 700;
   margin: 10px 0 25px;
 }
 
-.card > .card__content > .card__content-date {
+.card .card__date {
   font-size: 0.64rem;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
-.card > .card__content > .card__content-descripion {
+.card .card__descripion {
   margin: 0;
   font-size: 0.64rem;
 }
